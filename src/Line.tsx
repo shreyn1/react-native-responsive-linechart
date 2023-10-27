@@ -160,7 +160,9 @@ const Line = React.forwardRef<LineHandle, Props>(function Line(props, ref) {
   )
 })
 
-export { Line }
+const MemoizedLine = React.memo(Line)
+
+export { MemoizedLine as Line }
 
 const defaultProps = {
   theme: {

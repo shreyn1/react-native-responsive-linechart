@@ -201,9 +201,8 @@ const Chart: React.FC<Props> = React.memo(
         </GestureHandlerRootView>
       </View>
     )
-  }),
-  fastEqual
-)
+  }))
+
 
 export { Chart }
 
